@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791791981B72F570001B7D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 791791971B72F570001B7D73 /* main.m */; };
+		7917919B1B72F570001B7D73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917919A1B72F570001B7D73 /* AppDelegate.m */; };
+		7917919E1B72F570001B7D73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917919D1B72F570001B7D73 /* ViewController.m */; };
+		791791A11B72F570001B7D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7917919F1B72F570001B7D73 /* Main.storyboard */; };
+		791791A31B72F570001B7D73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791791A21B72F570001B7D73 /* Images.xcassets */; };
+		791791A61B72F570001B7D73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791791A41B72F570001B7D73 /* LaunchScreen.xib */; };
+		791791B21B72F570001B7D73 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791791B11B72F570001B7D73 /* ____DemoTests.m */; };
+		791791BD1B72F697001B7D73 /* CATransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 791791BC1B72F697001B7D73 /* CATransitionView.m */; };
+		791791C71B72FB72001B7D73 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791BF1B72FB72001B7D73 /* 1.jpg */; };
+		791791C81B72FB72001B7D73 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C01B72FB72001B7D73 /* 2.jpg */; };
+		791791C91B72FB72001B7D73 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C11B72FB72001B7D73 /* 3.jpg */; };
+		791791CA1B72FB72001B7D73 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C21B72FB72001B7D73 /* 4.jpg */; };
+		791791CB1B72FB72001B7D73 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C31B72FB72001B7D73 /* 5.jpg */; };
+		791791CC1B72FB72001B7D73 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C41B72FB72001B7D73 /* 6.jpg */; };
+		791791CD1B72FB72001B7D73 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C51B72FB72001B7D73 /* 7.jpg */; };
+		791791CE1B72FB72001B7D73 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791791C61B72FB72001B7D73 /* 8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		791791AC1B72F570001B7D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7917918A1B72F570001B7D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791791911B72F570001B7D73;
+			remoteInfo = "过度动画Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		791791921B72F570001B7D73 /* 过度动画Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "过度动画Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791791961B72F570001B7D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791791971B72F570001B7D73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		791791991B72F570001B7D73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7917919A1B72F570001B7D73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7917919C1B72F570001B7D73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7917919D1B72F570001B7D73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		791791A01B72F570001B7D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		791791A21B72F570001B7D73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		791791A51B72F570001B7D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		791791AB1B72F570001B7D73 /* 过度动画DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "过度动画DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791791B01B72F570001B7D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791791B11B72F570001B7D73 /* ____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoTests.m"; sourceTree = "<group>"; };
+		791791BB1B72F697001B7D73 /* CATransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionView.h; sourceTree = "<group>"; };
+		791791BC1B72F697001B7D73 /* CATransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionView.m; sourceTree = "<group>"; };
+		791791BF1B72FB72001B7D73 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		791791C01B72FB72001B7D73 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		791791C11B72FB72001B7D73 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		791791C21B72FB72001B7D73 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		791791C31B72FB72001B7D73 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		791791C41B72FB72001B7D73 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		791791C51B72FB72001B7D73 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		791791C61B72FB72001B7D73 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7917918F1B72F570001B7D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791791A81B72F570001B7D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791791891B72F570001B7D73 = {
+			isa = PBXGroup;
+			children = (
+				791791941B72F570001B7D73 /* 过度动画Demo */,
+				791791AE1B72F570001B7D73 /* 过度动画DemoTests */,
+				791791931B72F570001B7D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791791931B72F570001B7D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791791921B72F570001B7D73 /* 过度动画Demo.app */,
+				791791AB1B72F570001B7D73 /* 过度动画DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791791941B72F570001B7D73 /* 过度动画Demo */ = {
+			isa = PBXGroup;
+			children = (
+				791791BE1B72FB72001B7D73 /* 图片 */,
+				791791991B72F570001B7D73 /* AppDelegate.h */,
+				7917919A1B72F570001B7D73 /* AppDelegate.m */,
+				7917919C1B72F570001B7D73 /* ViewController.h */,
+				7917919D1B72F570001B7D73 /* ViewController.m */,
+				791791BB1B72F697001B7D73 /* CATransitionView.h */,
+				791791BC1B72F697001B7D73 /* CATransitionView.m */,
+				7917919F1B72F570001B7D73 /* Main.storyboard */,
+				791791A21B72F570001B7D73 /* Images.xcassets */,
+				791791A41B72F570001B7D73 /* LaunchScreen.xib */,
+				791791951B72F570001B7D73 /* Supporting Files */,
+			);
+			path = "过度动画Demo";
+			sourceTree = "<group>";
+		};
+		791791951B72F570001B7D73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				791791961B72F570001B7D73 /* Info.plist */,
+				791791971B72F570001B7D73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791791AE1B72F570001B7D73 /* 过度动画DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				791791B11B72F570001B7D73 /* ____DemoTests.m */,
+				791791AF1B72F570001B7D73 /* Supporting Files */,
+			);
+			path = "过度动画DemoTests";
+			sourceTree = "<group>";
+		};
+		791791AF1B72F570001B7D73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				791791B01B72F570001B7D73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791791BE1B72FB72001B7D73 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				791791BF1B72FB72001B7D73 /* 1.jpg */,
+				791791C01B72FB72001B7D73 /* 2.jpg */,
+				791791C11B72FB72001B7D73 /* 3.jpg */,
+				791791C21B72FB72001B7D73 /* 4.jpg */,
+				791791C31B72FB72001B7D73 /* 5.jpg */,
+				791791C41B72FB72001B7D73 /* 6.jpg */,
+				791791C51B72FB72001B7D73 /* 7.jpg */,
+				791791C61B72FB72001B7D73 /* 8.jpg */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791791911B72F570001B7D73 /* 过度动画Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791791B51B72F570001B7D73 /* Build configuration list for PBXNativeTarget "过度动画Demo" */;
+			buildPhases = (
+				7917918E1B72F570001B7D73 /* Sources */,
+				7917918F1B72F570001B7D73 /* Frameworks */,
+				791791901B72F570001B7D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "过度动画Demo";
+			productName = "过度动画Demo";
+			productReference = 791791921B72F570001B7D73 /* 过度动画Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		791791AA1B72F570001B7D73 /* 过度动画DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791791B81B72F570001B7D73 /* Build configuration list for PBXNativeTarget "过度动画DemoTests" */;
+			buildPhases = (
+				791791A71B72F570001B7D73 /* Sources */,
+				791791A81B72F570001B7D73 /* Frameworks */,
+				791791A91B72F570001B7D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791791AD1B72F570001B7D73 /* PBXTargetDependency */,
+			);
+			name = "过度动画DemoTests";
+			productName = "过度动画DemoTests";
+			productReference = 791791AB1B72F570001B7D73 /* 过度动画DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7917918A1B72F570001B7D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = vera;
+				TargetAttributes = {
+					791791911B72F570001B7D73 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					791791AA1B72F570001B7D73 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 791791911B72F570001B7D73;
+					};
+				};
+			};
+			buildConfigurationList = 7917918D1B72F570001B7D73 /* Build configuration list for PBXProject "过度动画Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 791791891B72F570001B7D73;
+			productRefGroup = 791791931B72F570001B7D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791791911B72F570001B7D73 /* 过度动画Demo */,
+				791791AA1B72F570001B7D73 /* 过度动画DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791791901B72F570001B7D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791791CE1B72FB72001B7D73 /* 8.jpg in Resources */,
+				791791CC1B72FB72001B7D73 /* 6.jpg in Resources */,
+				791791A11B72F570001B7D73 /* Main.storyboard in Resources */,
+				791791CB1B72FB72001B7D73 /* 5.jpg in Resources */,
+				791791CA1B72FB72001B7D73 /* 4.jpg in Resources */,
+				791791C71B72FB72001B7D73 /* 1.jpg in Resources */,
+				791791C81B72FB72001B7D73 /* 2.jpg in Resources */,
+				791791C91B72FB72001B7D73 /* 3.jpg in Resources */,
+				791791CD1B72FB72001B7D73 /* 7.jpg in Resources */,
+				791791A61B72F570001B7D73 /* LaunchScreen.xib in Resources */,
+				791791A31B72F570001B7D73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791791A91B72F570001B7D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7917918E1B72F570001B7D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7917919E1B72F570001B7D73 /* ViewController.m in Sources */,
+				7917919B1B72F570001B7D73 /* AppDelegate.m in Sources */,
+				791791981B72F570001B7D73 /* main.m in Sources */,
+				791791BD1B72F697001B7D73 /* CATransitionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791791A71B72F570001B7D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791791B21B72F570001B7D73 /* ____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		791791AD1B72F570001B7D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791791911B72F570001B7D73 /* 过度动画Demo */;
+			targetProxy = 791791AC1B72F570001B7D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7917919F1B72F570001B7D73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791791A01B72F570001B7D73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		791791A41B72F570001B7D73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791791A51B72F570001B7D73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		791791B31B72F570001B7D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		791791B41B72F570001B7D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		791791B61B72F570001B7D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "过度动画Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		791791B71B72F570001B7D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "过度动画Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		791791B91B72F570001B7D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "过度动画DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/过度动画Demo.app/过度动画Demo";
+			};
+			name = Debug;
+		};
+		791791BA1B72F570001B7D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "过度动画DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/过度动画Demo.app/过度动画Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7917918D1B72F570001B7D73 /* Build configuration list for PBXProject "过度动画Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791791B31B72F570001B7D73 /* Debug */,
+				791791B41B72F570001B7D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791791B51B72F570001B7D73 /* Build configuration list for PBXNativeTarget "过度动画Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791791B61B72F570001B7D73 /* Debug */,
+				791791B71B72F570001B7D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791791B81B72F570001B7D73 /* Build configuration list for PBXNativeTarget "过度动画DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791791B91B72F570001B7D73 /* Debug */,
+				791791BA1B72F570001B7D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7917918A1B72F570001B7D73 /* Project object */;
+}
